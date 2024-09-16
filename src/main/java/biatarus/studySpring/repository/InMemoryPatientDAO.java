@@ -47,4 +47,12 @@ public class InMemoryPatientDAO {
         }
 
     }
+
+    public Patient findPatientById(Long id) {
+        return PATIENTS.stream()
+                .filter(patient -> patient.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+    }
+
 }
