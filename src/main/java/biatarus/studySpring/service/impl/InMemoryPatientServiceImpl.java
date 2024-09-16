@@ -11,6 +11,7 @@ import java.util.List;
 @Service
 @AllArgsConstructor
 public class InMemoryPatientServiceImpl implements PatientService {
+
     private final InMemoryPatientDAO inMemoryPatientDAO;
 
     @Override

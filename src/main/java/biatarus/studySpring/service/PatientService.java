@@ -7,7 +7,6 @@ import java.util.List;
 public interface PatientService {
 
     List<Patient> findAllPatient();
-
     Patient savePatient(Patient patient);
     Patient findPatientByEmail(String email);
     Patient updatePatient(Patient patient);

@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 @Primary
 @AllArgsConstructor
-public class PatientServiceIml implements PatientService {
+public class PatientServiceImpl implements PatientService {
 
     private final PatientRepository patientRepository;
 
